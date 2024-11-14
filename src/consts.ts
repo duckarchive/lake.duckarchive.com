@@ -35,7 +35,7 @@ export const HeaderLinks: { href: string, title: string }[] = [
 export const FooterLinks = [
   { href: "/tags/", title: Tags_TITLE },
   // { href: "/category/official/1", title: "Качині Історії" },
-  // { href: "/category/public/1", title: "Від підписників" },
+  // { href: "/category/genealogy/1", title: "Генеалогічне" },
   // { href: "/category/other/1", title: "Різне" },
 ];
 

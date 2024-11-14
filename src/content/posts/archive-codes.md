@@ -1,20 +1,26 @@
 ---
-title: Why choose Astro over another web framework
-slug: why-astro
-description: Astro is an all-in-one web framework for building fast, content-focused websites. Learn more.
+title: Як читати реквізити в архівах?
+slug: archive-codes
+description: Інструкція для початківців, як розшифровувати архівні реквізити.
 category:
-  - Three
+  - genealogy
 tags:
-  - Tailwind
-  - Astro
-  - Jamstack
-pubDate: 2023-09-09
-cover: https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=1960&h=1102&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-coverAlt: AstroVerse-Aliases
-author: VV
+  - генеалогія
+  - початківцям
+  - реквізити
+  - архіви
+  - інструкція
+pubDate: 2024-11-14
+cover: "../../assets/images/archive-codes-1.jpeg"
+coverAlt: Приклад архівних реквізитів
+author: Розумна Качка
 ---
 
-Astro is an **all-in-one** **web framework** for building **fast,** **content-focused websites.**
+Ви відкриваєте родовід, що вам зробив «Пращур», а там на полях — ребуси, типу такого:
+
+ДАЧО Ф. Д. 285, оп. 2, спр. 3
+
+Що це? Яка дача? Хто такий пан «Ф. Д.»? А «оп.» це як повністю буде? Давайте розбиратися.
 
 Why choose Astro over another web framework? Here are five core design principles to help explain why we built Astro, the problems that it exists to solve, and why Astro may be the best choice for your project or team.
 

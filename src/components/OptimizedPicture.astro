@@ -1,8 +1,8 @@
 ---
-import { Picture } from "astro:assets";
+import { Picture, type LocalImageProps } from "astro:assets";
 
 interface Props {
-  src: string;
+  src: LocalImageProps["src"];
   alt: string;
   widths?: number[];
   sizes?: string;
@@ -26,7 +26,7 @@ const {
 ---
 
 <Picture
-  src={src}
+  src={src as any}
   alt={alt}
   widths={widths}
   sizes={sizes}
