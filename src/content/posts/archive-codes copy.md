@@ -1,7 +1,7 @@
 ---
 title: Як читати реквізити в архівах?
-slug: archive-codes
-description: "Ви відкриваєте родовід, що вам зробив «Пращур», а там на полях — ребуси. Давайте розбиратися."
+slug: archive-codes1
+description: Інструкція для початківців, як розшифровувати архівні реквізити.
 category:
   - genealogy
 tags:
@@ -10,7 +10,7 @@ tags:
   - реквізити
   - архіви
   - інструкція
-pubDate: 2024-11-15
+pubDate: 2024-11-14
 cover: "../../assets/images/archive-codes-1.jpeg"
 coverAlt: Приклад архівних реквізитів
 author: Розумна Качка
