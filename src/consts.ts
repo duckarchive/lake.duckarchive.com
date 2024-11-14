@@ -28,15 +28,15 @@ export function getCategoryMetadata(category: string) {
 }
 
 // Header Links, src/components/Header.astro
-export const HeaderLinks = [
+export const HeaderLinks: { href: string, title: string }[] = [
 ];
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
   { href: "/tags/", title: Tags_TITLE },
-  // { href: "/category/official/", title: "Качині Історії" },
-  // { href: "/category/public/", title: "Від підписників" },
-  // { href: "/category/other/", title: "Різне" },
+  // { href: "/category/official/1", title: "Качині Історії" },
+  // { href: "/category/public/1", title: "Від підписників" },
+  // { href: "/category/other/1", title: "Різне" },
 ];
 
 // Social Links, src/components/Footer.astro
