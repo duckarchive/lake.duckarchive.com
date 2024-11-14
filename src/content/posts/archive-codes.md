@@ -1,7 +1,7 @@
 ---
 title: Як читати реквізити в архівах?
 slug: archive-codes
-description: "Ви відкриваєте родовід, що вам зробив «Пращур», а там на полях — ребуси. Давайте розбиратися."
+description: 'Ви відкриваєте родовід, що вам зробив "Пращур", а там на полях — ребуси. Давайте розбиратися.'
 category:
   - genealogy
 tags:
@@ -10,17 +10,17 @@ tags:
   - реквізити
   - архіви
   - інструкція
-pubDate: 2024-11-15
+pubDate: 2024-11-14
 cover: "../../assets/images/archive-codes-1.jpeg"
 coverAlt: Приклад архівних реквізитів
 author: Розумна Качка
 ---
 
-Ви відкриваєте родовід, що вам зробив «Пращур», а там на полях — ребуси, типу такого:
+Ви відкриваєте родовід, що вам зробив "Пращур", а там на полях — ребуси, типу такого:
 
 ДАЧО Ф. Д. 285, оп. 2, спр. 3
 
-Що це? Яка дача? Хто такий пан «Ф. Д.»? А «оп.» це як повністю буде? Давайте розбиратися.
+Що це? Яка дача? Хто такий пан "Ф. Д."? А "оп." це як повністю буде? Давайте розбиратися.
 
 Why choose Astro over another web framework? Here are five core design principles to help explain why we built Astro, the problems that it exists to solve, and why Astro may be the best choice for your project or team.
 
