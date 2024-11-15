@@ -10,7 +10,7 @@ tags:
   - архіви
   - інструкція
 pubDate: 2024-11-14
-cover: "../../assets/images/archive-codes-1.jpeg"
+cover: "../../assets/images/archive-codes-1.jpg"
 coverAlt: Приклад архівних реквізитів
 author: Розумна Качка
 ---
