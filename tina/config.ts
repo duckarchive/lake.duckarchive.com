@@ -58,9 +58,9 @@ export default defineConfig({
             label: "Категорія",
             required: true,
             ui: {
-              component: 'select',
+              component: "select",
             },
-            options: ['Посібники', 'Качині Історії', 'Цікаве', 'Інше'],
+            options: ["Посібники", "Качині Історії", "Цікаве", "Інше"],
           },
           {
             type: "string",
@@ -69,7 +69,7 @@ export default defineConfig({
             required: true,
             list: true,
             ui: {
-              component: 'tags',
+              component: "tags",
             },
           },
           {
@@ -83,6 +83,10 @@ export default defineConfig({
             name: "cover",
             label: "Головне зображення",
             required: true,
+            ui: {
+              parse: (src) => src.replace("/../src/assets", "../../assets"),
+              format: (src) => src.replace("../../assets", "/../src/assets"),
+            },
           },
           {
             type: "string",
