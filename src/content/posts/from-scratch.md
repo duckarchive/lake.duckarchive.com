@@ -10,7 +10,7 @@ tags:
   - архіви
   - інструкція
 pubDate: 2024-11-15T00:00:00.000Z
-cover: /../src/assets/images/from-scratch-1.jpg
+cover: ../../assets/images/from-scratch-1.jpg
 coverAlt: Початок шляху в генеалогії
 author: Пан Качур
 ---
