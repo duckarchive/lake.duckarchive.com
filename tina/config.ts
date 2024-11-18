@@ -96,8 +96,14 @@ export default defineConfig({
             label: "Головне зображення",
             required: true,
             ui: {
-              parse: (src) => src?.replace("/../src/assets", "../../assets"),
-              format: (src) => src?.replace("../../assets", "/../src/assets"),
+              parse: (src) => {
+                console.log("parse", src);
+                return src?.replace("/../src/assets", "../../assets")
+              },
+              format: (src) => {
+                console.log("format", src);
+                return src?.replace("../../assets", "/../src/assets")
+              },
             },
           },
           {
