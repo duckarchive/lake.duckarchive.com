@@ -28,6 +28,15 @@ export default defineConfig({
         name: "post",
         label: "Статті",
         path: "src/content/posts",
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: (values) => {
+              const isoDate = new Date().toISOString().split("T")[0];
+              return values?.slug || isoDate
+            },
+          },
+        },
         fields: [
           {
             type: "string",
