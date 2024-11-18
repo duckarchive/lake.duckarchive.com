@@ -74,6 +74,13 @@ export default defineConfig({
             required: true,
             list: true,
             ui: {
+              validate: (value) => {
+                if (!value.length) {
+                  return "Додайте хоча б один тег";
+                } else if (value.length > 5) {
+                  return "Максимум 5 тегів";
+                };
+              },
               component: "tags",
             },
           },
