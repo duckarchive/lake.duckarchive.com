@@ -1,16 +1,16 @@
 ---
 title: Як читати реквізити в архівах?
 slug: archive-codes2
-description: Інструкція для початківців, як розшифровувати архівні реквізити.
-category: "Посібники"
+description: 'Інструкція для початківців, як розшифровувати архівні реквізити.'
+category: Посібники
 tags:
   - генеалогія
   - початківцям
   - реквізити
   - архіви
   - інструкція
-pubDate: 2024-11-14
-cover: ../../assets/images/archive-codes-1.jpg
+pubDate: 2024-11-14T00:00:00.000Z
+cover: ../../assets/images/unnamed.png
 coverAlt: Приклад архівних реквізитів
 author: Розумна Качка
 ---
@@ -35,7 +35,7 @@ Why choose Astro over another web framework? Here are five core design principle
 
 **Astro was designed for building content-rich websites.** This includes most marketing sites, publishing sites, documentation sites, blogs, portfolios, and some ecommerce sites.
 
-By contrast, most modern web frameworks are designed for building _web applications_. These frameworks work best for building more complex, application-like experiences in the browser: logged-in admin dashboards, inboxes, social networks, todo lists, and even native-like applications like [Figma](https://figma.com/) and [Ping](https://ping.gg/).
+By contrast, most modern web frameworks are designed for building *web applications*. These frameworks work best for building more complex, application-like experiences in the browser: logged-in admin dashboards, inboxes, social networks, todo lists, and even native-like applications like [Figma](https://figma.com/) and [Ping](https://ping.gg/).
 
 This is one of the most important differences to understand about Astro. Astro's unique focus on content lets Astro make tradeoffs and deliver unmatched performance features that wouldn't make sense for more application-focused web frameworks to implement.
 
@@ -53,14 +53,14 @@ The SPA model has its benefits. However, these come at the expense of additional
 
 ## Fast by default
 
-Good performance is always important, but it is _especially_ critical for content-focused websites. It has been well-proven that poor performance loses you engagement, conversions, and money. For example:
+Good performance is always important, but it is *especially* critical for content-focused websites. It has been well-proven that poor performance loses you engagement, conversions, and money. For example:
 
-- Every 100ms faster → 1% more conversions ([Mobify](https://web.dev/why-speed-matters/), earning +$380,000/yr)
-- 50% faster → 12% more sales ([AutoAnything](https://www.digitalcommerce360.com/2010/08/19/web-accelerator-revs-conversion-and-sales-autoanything/))
-- 20% faster → 10% more conversions ([Furniture Village](https://www.thinkwithgoogle.com/intl/en-gb/marketing-strategies/app-and-mobile/furniture-village-and-greenlight-slash-page-load-times-boosting-user-experience/))
-- 40% faster → 15% more sign-ups ([Pinterest](https://medium.com/pinterest-engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7))
-- 850ms faster → 7% more conversions ([COOK](https://web.dev/why-speed-matters/))
-- Every 1 second slower → 10% fewer users ([BBC](https://www.creativebloq.com/features/how-the-bbc-builds-websites-that-scale))
+* Every 100ms faster → 1% more conversions ([Mobify](https://web.dev/why-speed-matters/), earning +$380,000/yr)
+* 50% faster → 12% more sales ([AutoAnything](https://www.digitalcommerce360.com/2010/08/19/web-accelerator-revs-conversion-and-sales-autoanything/))
+* 20% faster → 10% more conversions ([Furniture Village](https://www.thinkwithgoogle.com/intl/en-gb/marketing-strategies/app-and-mobile/furniture-village-and-greenlight-slash-page-load-times-boosting-user-experience/))
+* 40% faster → 15% more sign-ups ([Pinterest](https://medium.com/pinterest-engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7))
+* 850ms faster → 7% more conversions ([COOK](https://web.dev/why-speed-matters/))
+* Every 1 second slower → 10% fewer users ([BBC](https://www.creativebloq.com/features/how-the-bbc-builds-websites-that-scale))
 
 In many web frameworks, it is easy to build a website that looks great during development only to load painfully slow once deployed. JavaScript is often the culprit, since users’ phones and lower-powered devices rarely match the speed of a developer's laptop.
 
