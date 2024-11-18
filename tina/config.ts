@@ -102,7 +102,11 @@ export default defineConfig({
             ui: {
               parse: (src) => {
                 console.log("parse", src);
-                return src?.replace("/../src/assets", "../../assets")
+                if (src?.startsWith("https://assets.tina.io")) {
+                  return src?.replace(/.+\//, "../../assets/images/");
+                } else {
+                  return src?.replace("/../src/assets", "../../assets")
+                }
               },
               format: (src) => {
                 console.log("format", src);
