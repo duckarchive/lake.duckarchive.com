@@ -8,7 +8,7 @@ tags:
   - генеалогія
   - початківцям
 category: Посібники
-pubDate: '2024-11-18T23:00:00.000Z'
+pubDate: 2024-11-18
 cover: ../../assets/images/a65c9900.png
 coverAlt: Чоловічки йдуть
 author: Пан Качур
