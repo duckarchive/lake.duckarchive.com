@@ -6,7 +6,7 @@ category: Посібники
 tags:
   - початкцівцям
 pubDate: 2024-11-17T23:00:00.000Z
-cover: /../src/assets/images/a65c9900.png
+cover: ../../assets/images/a65c9900.png
 coverAlt: Чоловічки йдуть
 author: Пан Качур
 ---
