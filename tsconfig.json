@@ -9,5 +9,6 @@
       "@utils/*": ["src/utils/*"],
       "@consts": ["src/consts.ts"]
     }
-  }
+  },
+  "exclude": ["node_modules", ".astro", "dist", "tina/__generated__"]
 }
