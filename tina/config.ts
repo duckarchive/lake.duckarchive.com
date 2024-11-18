@@ -75,9 +75,9 @@ export default defineConfig({
             list: true,
             ui: {
               validate: (value) => {
-                if (!value.length) {
+                if (!value || !value.length) {
                   return "Додайте хоча б один тег";
-                } else if (value.length > 5) {
+                } else if (value?.length > 5) {
                   return "Максимум 5 тегів";
                 };
               },
