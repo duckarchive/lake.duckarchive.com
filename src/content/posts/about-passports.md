@@ -4,16 +4,15 @@ title: >-
   1974р.)
 slug: passports
 description: Ну і тут теж щось буде
+category: Посібники
 tags:
   - генеалогія
   - початківцям
-category: Посібники
-pubDate: 2024-11-18
-cover: ../../assets/images/a65c9900.png
+pubDate: 2024-11-18T00:00:00.000Z
+cover: ../../assets/images/archive-codes-1.jpg
 coverAlt: Чоловічки йдуть
 author: Пан Качур
 ---
-
 
 Стаття, можливо, буде доповнена, адже має багато цікавих уточнень.
 (по матеріалам взятих [https://prashhur.com/zayava-pro-vidachu-pasporta/](https://prashhur.com/zayava-pro-vidachu-pasporta/))
