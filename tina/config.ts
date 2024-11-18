@@ -89,6 +89,10 @@ export default defineConfig({
             name: "pubDate",
             label: "Дата Публікації",
             required: true,
+            ui: {
+              dateFormat: 'YYYY-MM-DD',
+              parse: (value) => value && (value as any).format('YYYY-MM-DD'),
+            },
           },
           {
             type: "image",
