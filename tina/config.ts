@@ -106,7 +106,11 @@ export default defineConfig({
               },
               format: (src) => {
                 console.log("format", src);
-                return src?.replace("../../assets", "/../src/assets")
+                if (src?.startsWith("https://assets.tina.io")) {
+                  return src?.replace("../../assets/images", "");
+                } else {
+                  return src?.replace("../../assets", "/../src/assets")
+                }
               },
             },
           },
