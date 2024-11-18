@@ -10,5 +10,5 @@
       "@consts": ["src/consts.ts"]
     }
   },
-  "exclude": ["node_modules", ".astro", "dist", "tina/__generated__"]
+  "exclude": ["node_modules", ".astro", "dist", "tina/__generated__", "public/admin"]
 }
