@@ -8,8 +8,8 @@ category: Посібники
 tags:
   - генеалогія
   - початківцям
-pubDate: 2025-01-06T00:00:00.000Z
-cover: /../src/assets/images../../assets/images/archive-codes-1.jpg
+pubDate: 2025-01-06
+cover: ../../assets/images/archive-codes-1.jpg
 coverAlt: Архівний Фонд-опис-справа (аркуш)
 author: Пан Качур
 ---
