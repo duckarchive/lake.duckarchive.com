@@ -101,18 +101,20 @@ export default defineConfig({
             required: true,
             ui: {
               parse: (src) => {
-                console.log("parse", src);
                 if (src?.startsWith("https://assets.tina.io")) {
+                  console.log("parse-domain", src);
                   return src?.replace(/.+\//, "../../assets/images/");
                 } else {
+                  console.log("parse-else", src);
                   return src?.replace("/../src/assets", "../../assets")
                 }
               },
               format: (src) => {
-                console.log("format", src);
                 if (src?.startsWith("https://assets.tina.io")) {
+                  console.log("format-domain", src);
                   return src?.replace("../../assets/images", "");
                 } else {
+                  console.log("format-else", src);
                   return src?.replace("../../assets", "/../src/assets")
                 }
               },
