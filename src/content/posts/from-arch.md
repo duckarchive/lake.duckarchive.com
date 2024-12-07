@@ -5,8 +5,8 @@ description: Як шукати по архівам потрібні справи
 category: Посібники
 tags:
   - українська генеалогія
-pubDate: 2025-01-01T00:00:00.000Z
-cover: /../src/assets/images../../assets/images/archive-codes-1.jpg
+pubDate: 2025-01-01
+cover: ../../assets/images/archive-codes-1.jpg
 coverAlt: Як шукати по архівам потрібні справи і який у них шифр?
 author: пан Качур
 ---
