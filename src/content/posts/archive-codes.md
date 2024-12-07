@@ -9,8 +9,8 @@ tags:
   - реквізити
   - архіви
   - інструкція
-pubDate: 2024-11-15T00:00:00.000Z
-cover: ../../assets/images/archive-codes-1.jpg
+pubDate: 2024-11-16T00:00:00.000Z
+cover: /../src/assets/images../../assets/images/archive-codes-1.jpg
 coverAlt: Приклад архівних реквізитів
 author: Розумна Качка
 ---
