@@ -1,7 +1,8 @@
 {
-  "name": "archive-duck-lake",
+  "name": "lake.duckarchive.com",
   "type": "module",
   "version": "0.0.1",
+  "homepage": "https://lake.duckarchive.com",
   "scripts": {
     "dev": "pnpm tinacms dev -c \"astro dev\"",
     "start": "astro dev",
