@@ -11,6 +11,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://lake.duckarchive.com",
   output: "static",
+  build: {
+    assets: 'astro'
+  },
   trailingSlash: "always",
   prefetch: {
     prefetchAll: true,
