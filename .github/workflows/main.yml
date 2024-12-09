@@ -17,6 +17,8 @@ jobs:
       
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          package-manager: pnpm@9
         env:
           PUBLIC_TINA_CLIENT_ID: ${{ secrets.PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
