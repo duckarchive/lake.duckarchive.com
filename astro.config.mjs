@@ -10,6 +10,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: "https://lake.duckarchive.com",
+  output: "static",
   trailingSlash: "always",
   prefetch: {
     prefetchAll: true,
