@@ -65,7 +65,7 @@ export default defineConfig({
             ui: {
               component: "select",
             },
-            options: ["Посібники", "Качині Історії", "Цікаве", "Інше"],
+            options: ["Посібники", "Качині Історії", "Цікаве", "Від підписників", "Інше"],
           },
           {
             type: "string",
