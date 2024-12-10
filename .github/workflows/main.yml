@@ -28,14 +28,14 @@ jobs:
         with:
           version: 9
 
+      - name: Install 🔧
+        run: pnpm install
+
       - name: Build TinaCMS
         run: pnpm build:tina
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-
-      - name: Install 🔧
-        run: pnpm install
 
       - name: Build 📦
         run: pnpm build
