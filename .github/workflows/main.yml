@@ -36,9 +36,6 @@ jobs:
         env:
           PUBLIC_TINA_CLIENT_ID: ${{ secrets.PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-      
-      - name: Remove TinaCMS gitignore artifacts
-        run: rm public/admin/.gitignore
 
       - name: Build 📦
         run: pnpm build
