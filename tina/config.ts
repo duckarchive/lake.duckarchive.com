@@ -133,11 +133,14 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "rich-text",
+            type: "string",
             name: "body",
             label: "Текст статті",
             isBody: true,
             required: true,
+            ui: {
+              component: "textarea"
+            },
           },
         ],
       },
