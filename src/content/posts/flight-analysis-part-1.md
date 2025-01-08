@@ -11,7 +11,7 @@ tags:
   - досягнення
   - розбір_польотів
 pubDate: 2025-01-10
-cover: ../../assets/images/part-1.webp
+cover: ../../assets/images/part-1.jpg
 coverAlt: Качка думає про успіхи архівної справи України
 author: Олександр Т.
 ---
