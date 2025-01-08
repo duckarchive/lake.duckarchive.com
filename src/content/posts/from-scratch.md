@@ -9,7 +9,7 @@ tags:
   - реквізити
   - архіви
   - інструкція
-pubDate: 2025-01-01
+pubDate: 2026-01-01
 cover: ../../assets/images/from-scratch-1.jpg
 coverAlt: 'Початок шляху в генеалогії, або я хочу родинне дерево!'
 author: Пан Качур

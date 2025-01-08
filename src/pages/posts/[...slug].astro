@@ -7,10 +7,12 @@ import OptimizedCover from "@components/OptimizedPicture.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: post,
-  }));
+  return posts
+    .filter((post) => new Date(post.data.pubDate) < new Date())
+    .map((post) => ({
+      params: { slug: post.slug },
+      props: post,
+    }));
 }
 
 const post = Astro.props;

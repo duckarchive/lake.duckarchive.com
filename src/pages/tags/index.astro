@@ -3,7 +3,8 @@ import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { Tags_TITLE, Tags_DESCRIPTION } from "@consts";
 
-const allPosts = await getCollection("posts");
+const posts = await getCollection("posts");
+const allPosts = posts.filter((post) => new Date(post.data.pubDate) < new Date());
 
 let tagCounts: { [key: string]: number } = {};
 allPosts.forEach((post) => {

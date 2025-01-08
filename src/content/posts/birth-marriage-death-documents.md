@@ -5,7 +5,7 @@ description: Шось та буде
 category: Посібники
 tags:
   - початкцівцям
-pubDate: 2024-11-17
+pubDate: 2026-11-17
 cover: ../../assets/images/a65c9900.png
 coverAlt: Чоловічки йдуть
 author: Пан Качур

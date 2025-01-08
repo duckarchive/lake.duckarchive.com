@@ -6,7 +6,8 @@ import Card from "@components/CommonCard.astro";
 import Pagination from "@components/Pagination.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@consts";
 
-const allPosts = await getCollection("posts");
+const posts = await getCollection("posts");
+const allPosts = posts.filter((post) => new Date(post.data.pubDate) < new Date());
 allPosts.sort(
   (a, b) =>
     new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf(),

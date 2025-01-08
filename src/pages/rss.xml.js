@@ -6,6 +6,7 @@ export async function GET(context) {
   let posts = await getCollection("posts");
 
   posts = posts
+    .filter((post) => new Date(post.data.pubDate) < new Date())
     .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
     .slice(0, 3);
 
