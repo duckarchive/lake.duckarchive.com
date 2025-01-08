@@ -1,5 +1,5 @@
 ---
-title: 'Розбір польотів #2: Проблеми'
+title: 'Розбір польотів #2: Ціна'
 slug: flight-analysis-part-2
 description: >-
   Друга стаття з циклу "Розбір польотів", на тему стану архівної справи в
@@ -12,8 +12,9 @@ tags:
   - архівна_справа
   - розбір_польотів
 pubDate: 2025-01-07T00:00:00.000Z
-cover: ../../assets/images/part-2.jpg
+cover: /../src/assets/images../../assets/images/part-2.jpg
 coverAlt: Качка думає про проблеми архівної справи України
 author: Олександр Т.
 ---
+
 
