@@ -10,7 +10,7 @@ async function getRelatedArticlesByCategory(): Promise<
   CollectionEntry<"posts">[]
 > {
   const posts = await getCollection("posts");
-  const allPosts = posts.filter((post) => new Date(post.data.pubDate) < new Date());
+  const allPosts = posts.filter((post) => import.meta.env.DEV || new Date(post.data.pubDate) < new Date());
   return allPosts
     .filter(
       (post) =>

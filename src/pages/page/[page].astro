@@ -8,7 +8,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@consts";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
-const allPosts = posts.filter((post) => new Date(post.data.pubDate) < new Date());
+const allPosts = posts.filter((post) => import.meta.env.DEV || new Date(post.data.pubDate) < new Date());
   allPosts.sort(
     (a, b) =>
       new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf(),

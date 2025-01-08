@@ -8,7 +8,7 @@ import OptimizedCover from "@components/OptimizedPicture.astro";
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
   return posts
-    .filter((post) => new Date(post.data.pubDate) < new Date())
+    .filter((post) => import.meta.env.DEV || new Date(post.data.pubDate) < new Date())
     .map((post) => ({
       params: { slug: post.slug },
       props: post,
