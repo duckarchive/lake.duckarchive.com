@@ -1,5 +1,5 @@
 ---
-title: 'Розбір польотів: Прогрес'
+title: 'Розбір польотів #1: Досягнення'
 slug: flight-analysis-part-1
 description: >-
   Перша стаття з циклу "Розбір польотів", на тему стану архівної справи в
@@ -11,7 +11,7 @@ tags:
   - досягнення
   - розбір_польотів
 pubDate: 2025-01-07T00:00:00.000Z
-cover: ../../assets/images/part-1.jpg
+cover: /../src/assets/images../../assets/images/part-1.jpg
 coverAlt: Качка думає про успіхи архівної справи України
 author: Олександр Т.
 ---
