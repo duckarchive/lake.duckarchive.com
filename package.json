@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "pnpm tinacms dev -c \"astro dev\"",
     "start": "astro dev",
-    "build": "node scripts/fix-cover-paths && astro check && astro build && git reset --hard",
+    "build": "node scripts/fix-cover-paths && astro check && astro build && git reset src/content/posts/*.md",
     "build:tina": "tinacms build",
     "preview": "astro preview",
     "format": "prettier -w .",
