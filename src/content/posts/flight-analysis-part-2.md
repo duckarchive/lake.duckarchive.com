@@ -11,11 +11,12 @@ tags:
   - дас
   - архівна_справа
   - розбір_польотів
-pubDate: 2025-01-19T00:00:00.000Z
-cover: ../../assets/images/part-2.jpg
+pubDate: 2025-02-28T00:00:00.000Z
+cover: /../src/assets/images../../assets/images/part-2.jpg
 coverAlt: Качка думає про проблеми архівної справи України
 author: Олександр Т.
 ---
+
 
 
 
