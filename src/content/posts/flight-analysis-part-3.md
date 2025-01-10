@@ -10,10 +10,11 @@ tags:
   - дас
   - архівна_справа
   - розбір_польотів
-pubDate: 2025-02-02T00:00:00.000Z
-cover: ../../assets/images/part-3.jpg
+pubDate: 2025-03-31T00:00:00.000Z
+cover: /../src/assets/images../../assets/images/part-3.jpg
 coverAlt: 'Качка має ідею, щодо архівної справи України'
 author: Олександр Т.
 ---
+
 
 
